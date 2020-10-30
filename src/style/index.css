@@ -1,20 +1,115 @@
-body,
-html {
-  margin: 0;
-  padding: 0;
-}
-
 body {
-  font-family: "Open Sans", sans-serif;
-  font-size: 16px;
+  font-family: "Fix for Mac Chrome 80", system-ui, -apple-system,
+    BlinkMacSystemFont, ".SFNSText-Regular", sans-serif;
+  background-color: #e9ebee;
+  margin: 0;
 }
 
-* {
+.header {
+  background-color: #3b5998;
+  color: white;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main {
+  margin: auto 200px;
+}
+/*--register--*/
+
+.register {
+  margin-left: 200px;
+  display: flex;
+  line-height: 30px;
+  align-items: center;
+}
+
+.register-text {
+  font-size: 40px;
+}
+
+.register-button {
+  font-size: 14px;
+  border-radius: 3px;
+  margin-left: 14px;
+  height: 30px;
+  width: 50px;
+  text-align: center;
+  line-height: 30px;
+  background-color: #42b72a;
+}
+
+.join-facebook {
+  font-size: 13px;
+  margin-right: 200px;
+}
+
+/*--caption--*/
+
+.caption {
+  margin-bottom: 40px;
+}
+
+.caption-create {
+  margin-bottom: 0;
+}
+
+.caption-describe {
+  margin-top: 5px;
+  font-size: 15px;
+}
+
+/*--advertisement--*/
+
+.advertisement {
+  display: flex;
+  height: 500px;
+  justify-content: space-between;
+}
+.advertisement-content {
+  border-radius: 5px;
+  width: auto;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   box-sizing: border-box;
 }
+.advertisement-content-figure {
+  width: 425px;
+  margin-bottom: 110px;
+}
+.advertisement-content-image {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+  vertical-align: center;
+  align-items: center;
+}
 
-ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+.advertisement-content-caption {
+  font-size: 14px;
+  color: #333;
+  text-align: center;
+  width: 400px;
+}
+
+.advertisement-content-caption p {
+  color: gray;
+  text-align: center;
+}
+
+.button {
+  font-size: 13px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 30px;
+  margin-bottom: 30px;
+  background-color: #e9ebee;
+  width: 50px;
+  height: 30px;
+  border-radius: 3px;
+  border: 1px solid lightgrey;
 }
